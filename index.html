@@ -6,8 +6,8 @@
     <link rel="stylesheet" href="../russian-travel/pages/index.css">
     <title>Russian travel</title>
   </head>
-  <body>
-    <div >
+  <body class="page">
+    <div class="page__container">
       <header class="header">
         <a href="#" class="header__logo">
           <svg width="177" height="52" viewBox="0 0 177 52" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -20,8 +20,10 @@
           <path d="M172.212 41.0004H176.575V27.9095H170.439C166.663 27.9095 164.277 29.8186 164.303 32.4777C164.286 33.9692 165.18 35.205 166.749 35.9379L164.166 41.0004H168.496L170.703 36.6709H172.212V41.0004ZM172.212 33.8414H170.541C169.288 33.8414 168.709 33.2277 168.734 32.6482C168.709 32.1027 169.254 31.4209 170.439 31.4209H172.212V33.8414Z" fill="white"/>
           </svg>
         </a>
-        <a href="#" class="header__lang-link">Ru</a>
-        <a href="#" class="header__lang-link">En</a>
+        <div class="header__lang-links">
+          <a href="#" class="header__lang-link">Ru</a>
+          <a href="#" class="header__lang-link">En</a>
+        </div>
       </header>
       <main class="content">
         <section class="lead">
@@ -56,17 +58,25 @@
           <img class="photo-grid__item">
           <img class="photo-grid__item">
         </section>
+
         <section class="places">
-          <div class="place">
-            <h2 class="place__title"></h2>
-            <img class="place__image" src="" alt="">
+          <article class="place">
+            <h2 class="place__title">Куршская коса</h2>
             <div class="place__website">
-              <p class="place__url-heading">URL</p>
-              <a class="place__link"></a>
+              <span class="place__url-heading">Url</span>
+              <a href="#" class="place__link">park-kosa.ru</a>
             </div>
-            <p class="place__paragraph"></p>
-            <p class="place__paragraph"></p>
-          </div>
+            <img class="place__image" src="./images/place-kosa.jpg" alt="Изображение Куршской косы">
+            <div class="place__description">
+              <p class="place__paragraph">Здесь, посреди лесов и песчаных дюн, вы сможете увидеть два водных горизонта — спокойного Куршского залива с одной стороны
+                и подёрнутого рябью волн Балтийского моря
+                с другой. Уникальная природная зона на краю российского анклава.</p>
+              <p class="place__paragraph">На этом Калининградская область не заканчивается. Для путешественника
+                и исследователя там же по соседству — самая западная точка России, Балтийская коса, —
+                и немецкое наследие россыпи небольших приморских городов. Атмосфера здешних мест исключает суету, окуная в спокойствие природы
+                и запах стального, прохладного моря.</p>
+            </div>
+          </article>
 
         </section>
         <section class="cover">
