@@ -1,19 +1,22 @@
 .cover__item {
   min-height: 740px;
   background-image: url(../../../images/cover-trains.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  color: white;
   position: relative;
+  text-decoration: none;
+  color: white;
 }
 
 .cover__item:before {
   content: "";
   position: absolute;
-  background: red;
-  opacity: 0.3;
+  background: #2A2C2F;
+  opacity: 20%;
   top: 0;
   left: 0;
   bottom: 0;
