@@ -1,6 +1,16 @@
+.place__description {
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 163%;
+}
+
+
 @media screen and (max-width: 767px) {
   .place__description {
     width: calc(100% - 16px * 2);
     margin: 0 auto;
+    font-size: 16px;
   }
 }
+
+

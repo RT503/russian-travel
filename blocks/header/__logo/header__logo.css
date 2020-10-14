@@ -1,5 +1,5 @@
-header__logo {
-  background-color: #FFFFFF;
+.header__logo {
   width: 176px;
   height: 72px;
+  align-self: flex-start;
 }
