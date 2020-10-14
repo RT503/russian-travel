@@ -4,7 +4,6 @@
   line-height: 163%;
 }
 
-
 @media screen and (max-width: 767px) {
   .place__description {
     width: calc(100% - 16px * 2);
@@ -12,5 +11,3 @@
     font-size: 16px;
   }
 }
-
-
