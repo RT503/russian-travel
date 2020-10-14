@@ -6,12 +6,12 @@
   margin-bottom: 92px;
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
+  align-items: center;
 }
 
 @media screen and (max-width: 1279px) {
   .lead {
-    width: 100%;
+    width: calc(100% - 48px * 2);
   }
 }
 
@@ -24,6 +24,6 @@
 
 @media screen and (max-width: 767px) {
   .lead {
-    width: 100%;
+    margin-bottom: 64px;
   }
 }

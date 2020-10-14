@@ -1,16 +1,14 @@
 .cover__text-container {
-  width: 560px;
-  height: 250px;
   position: absolute;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  z-index: 1;
 }
 
 @media screen and (max-width: 767px) {
   .cover__text-container {
-    width: 288px;
-    height: 134px;
+    min-width: 288px;
   }
 }

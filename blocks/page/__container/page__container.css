@@ -17,15 +17,8 @@
   }
 }
 
-@media screen and (max-width: 1023px) {
+@media screen and (max-width: 1024px) {
   .page__container {
-    width: calc(100% - 2 * 24px);
+    width: 100%;
   }
 }
-
-@media screen and (max-width: 767px) {
-  .page__container {
-    width: calc(100% - 2 * 16px);
-  }
-}
-
