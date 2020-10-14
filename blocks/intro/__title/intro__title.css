@@ -17,14 +17,12 @@
 
 @media screen and (max-width: 1023px) {
   .intro {
-    margin-left: 0;
     text-align: center;
   }
 }
 
 @media screen and (max-width: 767px) {
   .intro__title {
-    font-weight: 900;
     font-size: 32px;
     line-height: 35px;
     text-align: center;
