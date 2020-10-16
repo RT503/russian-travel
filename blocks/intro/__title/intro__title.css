@@ -6,18 +6,17 @@
   line-height: 58px;
   margin-bottom: 40px;
   margin-top: 0px;
+  max-width: 690px;
 }
 
 @media screen and (max-width: 1279px) {
   .intro {
-    width: 100%;
-    margin-left: 0;
   }
 }
 
 @media screen and (max-width: 1023px) {
   .intro {
-    text-align: center;
+
   }
 }
 
@@ -25,6 +24,6 @@
   .intro__title {
     font-size: 32px;
     line-height: 35px;
-    text-align: center;
+    width: calc(100% - 2 * 20px);
   }
 }

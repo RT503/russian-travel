@@ -2,6 +2,7 @@
   max-width: 1184px;
   min-width: 320px;
   min-height: 100vh;
+  width: calc(100% - 2 * 48px);
   margin: 0 auto;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -13,12 +14,7 @@
 
 @media screen and (max-width: 1279px) {
   .page__container {
-    width: calc(100% - 2 * 48px);
-  }
-}
-
-@media screen and (max-width: 1024px) {
-  .page__container {
     width: 100%;
   }
 }
+
