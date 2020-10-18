@@ -15,9 +15,11 @@
     width: calc(100% - 2 * 24px);
   }
 }
+
 @media screen and (max-width: 767px) {
   .footer {
     flex-direction: column;
     width: calc(100% - 2 * 16px);
+    min-height: 310px;
   }
 }
