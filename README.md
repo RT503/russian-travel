@@ -1,6 +1,8 @@
 ## Russian-Travel by RT503
 
-## GitHub Pages: https://rt503.github.io/russian-travel/
+## GitHub Pages:
+
+### https://rt503.github.io/russian-travel/
 
 ### В данном проекте были использованы
 
