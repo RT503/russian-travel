@@ -15,5 +15,5 @@
 * Grid layout
 * Git branching
 
-# Доработать:
+### Доработать:
 Добавить transitions Hover
